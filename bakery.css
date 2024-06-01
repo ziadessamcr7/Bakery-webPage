@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+._font-p {
+    color: #686868;
+}
+
+._font-h {
+    color: #303030;
+}
+
+.sec-1 {
+    background-image: url(imgs/drew-coffman-1872.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+
+.sec-1 .nav img {
+    float: left;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.sec-1 .nav ul {
+    float: right;
+    color: white;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.sec-1 .nav li {
+    display: inline-block;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    padding: 20px 10px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.sec-1 .body {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sec-1 .body h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.sec-1 .body h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0;
+
+}
+
+.sec-1 .body .btn1 {
+    background-color: #8e7754;
+    color: white;
+    padding: 20px;
+    border: 2px solid #8e7754;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.sec-1 .body .btn2 {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.sec-1 .oval {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 45%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.sec-2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-2 .pic {
+    width: 42%;
+    float: left;
+}
+
+.sec-2 .pic img {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.sec-2 .text {
+    width: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.sec-2 .text h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+.sec-2 .text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.sec-2 .text ul li {
+    list-style-type: none;
+    padding: 15px 0;
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+    /* background-color: burlywood; */
+
+}
+
+.sec-2 .text ul li i {
+    /* padding: 15px; */
+    /* background-color: red; */
+    /* border: 1px solid #8e7754; */
+    color: #8e7754;
+    width: 35px;
+    height: 35px;
+    /* border-radius: 50%; */
+    text-align: center;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.sec-3 {
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.sec-3 .text {
+    width: 45%;
+    float: left;
+    margin-top: 100px;
+    padding-left: 50px;
+    line-height: 30px;
+    margin-right: 25px;
+}
+
+.sec-3 .text h2 {
+    margin-bottom: 15px;
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sec-3 .text p {
+    margin-bottom: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sec-3 .pic {
+    width: 45%;
+    float: left;
+}
+
+.sec-3 .pic img {
+    width: 100%;
+}
+
+.sec-4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-4 h2 {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.sec-4 p {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sec-4 .deserts {
+    width: 31%;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+}
+
+.sec-4 .deserts img {
+    width: 100%;
+}
+
+.sec-4 .deserts h3 {
+    padding: 10px 0;
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.sec-4 .deserts p {
+    line-height: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sec-5 {
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-5 .text {
+    width: 43%;
+    float: left;
+    margin-right: 30px;
+    padding-left: 50px;
+}
+
+.sec-5 .text h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.sec-5 .text p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sec-5 .text ul {
+    list-style-type: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sec-5 .text ul i {
+    padding: 10px;
+    background-color: #8e7754;
+    color: white;
+    border-radius: 50%;
+    margin: 25px 15px 0 0;
+}
+
+.sec-5 .map {
+    width: 47%;
+    float: left;
+}
+
+.sec-6 {
+    background-color: #403d38;
+    color: white;
+    padding-top: 50px;
+}
+
+.sec-6 .about-us {
+    width: 22%;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.sec-6 .about-us ul {
+    list-style-type: none;
+}
+
+.sec-6 .about-us ul h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+.sec-6 .about-us ul li {
+    line-height: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid #4a4742;
+    color: #969696;
+}
+
+.sec-6 .about-us ul li.brdr-none {
+    border-bottom: none;
+}
+
+.sec-6 .about-us ul i {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+.sec-7 {
+    background-color: #353330;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sec-7 p {
+    margin: 25px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.sec-7 span {
+    background-color: #484540;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #777777;
+    width: 40px;
+    height: 40px;
+}
+
+.sec-7 span i {
+    margin-top: 25%;
+}
